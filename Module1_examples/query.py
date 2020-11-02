@@ -1,3 +1,5 @@
+"""Holds all of the queries we plan on run"""
+
 GET_CHARACTERS = """
   SELECT *
   FROM charactercreator_character;

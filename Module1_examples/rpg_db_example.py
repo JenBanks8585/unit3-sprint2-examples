@@ -1,4 +1,6 @@
+"""An example workflow for running SQLite queries"""
 import sqlite3
+# from query import *
 
 
 def connect_to_db(db_name="rpg_db.sqlite3"):
@@ -11,7 +13,6 @@ def execute_query(cursor, query):
 
 
 GET_CHARACTERS = """
-  -- This retrieves characters
   SELECT *
   FROM charactercreator_character;
 """
